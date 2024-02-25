@@ -5,16 +5,16 @@ citizens to report issues, submit feedback, and monitor the progress of
 infrastructure projects, public services, and government initiatives, promoting 
 transparency and accountability in governance.
 
-![Screenshot (18)](https://github.com/yashkolhatkar09/Government-Portal/assets/138909671/840e7f2a-13bb-419b-a8ec-e675acb801de)
+![image](https://github.com/ShantanuPanse/HackForge-WebCrafters-1b/assets/138909671/b1979656-c684-433f-9f4a-70dd5769be75)
 
-![image](https://github.com/ShantanuPanse/HackForge-WebCrafters-1b/assets/138909671/44f7e2d7-8af2-4bfa-bcf6-26b87fe9328a)
-
-![image](https://github.com/ShantanuPanse/HackForge-WebCrafters-1b/assets/138909671/db3bfc4b-c1d0-4c11-a3f7-faae60dc2589)
+![Screenshot (12)](https://github.com/yashkolhatkar09/Government-Portal/assets/138909671/f23317f9-fa39-4cc7-816f-a1faa36a0a73)
 
 
-![image](https://github.com/ShantanuPanse/HackForge-WebCrafters-1b/assets/138909671/c5437507-5369-449c-9083-492593424351)
+![Screenshot (13)](https://github.com/yashkolhatkar09/Government-Portal/assets/138909671/afcf78d5-d1bb-4cd9-9e79-cae9d09687b7)
 
-![image](https://github.com/ShantanuPanse/HackForge-WebCrafters-1b/assets/138909671/6151ab15-a31c-490b-85a5-5471f6a5d271)
+![Screenshot (14)](https://github.com/yashkolhatkar09/Government-Portal/assets/138909671/382f7971-b791-4c2d-841e-549d0d52dc70)
+
+
 
 # Government Portal
 
