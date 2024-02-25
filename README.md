@@ -4,7 +4,8 @@ Problem statement : Citizen Reporting and Monitoring System: Design a web-based 
 citizens to report issues, submit feedback, and monitor the progress of 
 infrastructure projects, public services, and government initiatives, promoting 
 transparency and accountability in governance.
-![image](https://github.com/ShantanuPanse/HackForge-WebCrafters-1b/assets/138909671/b1979656-c684-433f-9f4a-70dd5769be75)
+
+![Screenshot (18)](https://github.com/yashkolhatkar09/Government-Portal/assets/138909671/840e7f2a-13bb-419b-a8ec-e675acb801de)
 
 ![image](https://github.com/ShantanuPanse/HackForge-WebCrafters-1b/assets/138909671/44f7e2d7-8af2-4bfa-bcf6-26b87fe9328a)
 
