@@ -5,12 +5,13 @@ citizens to report issues, submit feedback, and monitor the progress of
 infrastructure projects, public services, and government initiatives, promoting 
 transparency and accountability in governance.
 
+Main Page 
 ![Screenshot (15)](https://github.com/yashkolhatkar09/Government-Portal/assets/138909671/a862e2f7-edc2-4fe6-801a-04c869ee9b42)
 
-
+Government Official
 ![Screenshot (12)](https://github.com/yashkolhatkar09/Government-Portal/assets/138909671/f23317f9-fa39-4cc7-816f-a1faa36a0a73)
 
-
+User Side 
 ![Screenshot (13)](https://github.com/yashkolhatkar09/Government-Portal/assets/138909671/afcf78d5-d1bb-4cd9-9e79-cae9d09687b7)
 
 ![Screenshot (14)](https://github.com/yashkolhatkar09/Government-Portal/assets/138909671/382f7971-b791-4c2d-841e-549d0d52dc70)
