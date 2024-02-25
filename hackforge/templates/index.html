@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title> </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      h1 {
+        margin-left: 40%;
+      }
+      * {
+        font-family: Montserrat, Arial, Helvetica, sans-serif;
+      }
+      body {
+        /* display: flex; */
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+      }
+      .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        width: 100%;
+
+        /* border: 2px black solid; */
+        background-color: rgb(220, 244, 250);
+      }
+      .operator,
+      .user {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 300px;
+        height: fit-content;
+        padding: 10px;
+        border: 2px black solid;
+        margin: 10px;
+        font-size: 24px;
+        cursor: pointer;
+        -webkit-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        background-color: rgb(182, 227, 248);
+      }
+      .user {
+        height: 130px;
+      }
+
+      .user:active {
+        background-color: rgb(245, 193, 125);
+      }
+
+      a {
+        text-decoration: none;
+        color: black;
+      }
+
+      .img {
+        height: 100px;
+        /* margin-left: -30px; */
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Government Portal</h1>
+    <div class="container">
+      <img
+        src="https://th.bing.com/th/id/OIP.1fwZD65Jul4iaEalLVJ6SgHaIj?rs=1&pid=ImgDetMain.png"
+        class="img"
+      />
+      <div class="operator">
+        <!-- <p onclick="login()">Operator</p> -->
+        <p>Enter password :</p>
+        <form action="/submitoppassword" method="post">
+          <input
+            name="oppassword"
+            type="password"
+            placeholder="enter password here"
+            autocomplete="off"
+          />
+          <input type="submit" />
+        </form>
+      </div>
+      <form action="/userlogin" method="post">
+        <input class="user" type="submit" value="User" />
+      </form>
+    </div>
+  </body>
+</html>

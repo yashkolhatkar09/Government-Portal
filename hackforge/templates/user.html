@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Citizen</title>
+    <link rel="stylesheet" href="static/userstyles.css" />
+  </head>
+  <body>
+    <header>
+      <img
+        src="https://th.bing.com/th/id/R.da5bc397897fe3c86c8e4da3e1bea7a3?rik=Im1LXCkb1paDvA&riu=http%3a%2f%2fpngimg.com%2fuploads%2fcoat_arms_india%2fcoat_arms_india_PNG10.png&ehk=I3FL8sV42fWmAgtVFY48vXaCFgW5BHpeVCEeHvPTY34%3d&risl=1&pid=ImgRaw&r=0.png"
+      />
+      <h1>Citizen Reporting System</h1>
+    </header>
+    <main>
+      <div class="container">
+        <section id="report-section">
+          <h2>Report Issue</h2>
+
+          <form id="report-form" action="/submitreport" method="post">
+            <label for="issue-description">Issue Description:</label>
+            <textarea
+              id="issue-description"
+              name="description"
+              rows="4"
+              cols="50"
+            ></textarea
+            ><br />
+            <!-- <label for="location">Location:</label> -->
+            <!-- <input type="text" id="location" name="location" /><br /> -->
+            <label for="category">Category:</label>
+            <select id="category" name="category">
+              <option value="Infrastructure">Infrastructure</option>
+              <option value="Public Service">Public Service</option>
+              <option value="Government Initiative">
+                Government Initiative
+              </option></select
+            ><br />
+            <label for="num">ID :</label>
+            <input
+              id="num"
+              name="userid"
+              min="0"
+              class="number"
+              type="number"
+            />
+            <button class="submit" type="submit">Submit Report</button>
+          </form>
+        </section>
+        <section id="feedback-section">
+          <!-- <h2>Submit Feedback</h2>
+          <form id="feedback-form">
+            <label for="feedback-message">Feedback Message:</label>
+            <textarea id="feedback-message" rows="4" cols="50"></textarea><br />
+            <button name="reportsubmit" type="submit">Submit Feedback</button>
+          </form> -->
+        </section>
+        <section id="monitoring-section">
+          <div id="project-list"></div>
+        </section>
+      </div>
+
+      <h2>Project Monitoring</h2>
+      <div class="prev-post-container">
+        <table border="1">
+          <tr>
+            <th>ID</th>
+            <th>Title</th>
+            <th>Start Date</th>
+            <th>Category</th>
+            <th>Progress</th>
+            <th>Description</th>
+          </tr>
+          {% for event in events %}
+          <tr>
+            <td>{{ event[0] }}</td>
+            <td>{{ event[1] }}</td>
+            <td>{{ event[2] }}</td>
+            <td>{{ event[3] }}</td>
+            <td>{{ event[4] }}</td>
+            <td>{{ event[5] }}</td>
+          </tr>
+          {% endfor %}
+        </table>
+      </div>
+    </main>
+    <footer>
+      <p>&copy; 2024 Citizen Reporting System</p>
+      <p>Email : indiaportal@gov.in</p>
+      <p>Phone No : 8788344179</p>
+    </footer>
+
+    <!-- <script src="app.js"></script> -->
+    <!-- <script src="style.css"></script> -->
+  </body>
+</html>

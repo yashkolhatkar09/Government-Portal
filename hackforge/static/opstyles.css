@@ -1,0 +1,123 @@
+/* Resetting default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Setting up fonts */
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: grey;
+}
+
+/* Styling header */
+header {
+  background-color: #3f51b5;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
+
+header img {
+  width: 100px; /* Adjust the width as needed */
+  height: auto; /* Maintain aspect ratio */
+}
+
+header h1 {
+  margin-top: 10px;
+}
+
+/* Styling main content */
+main {
+  padding: 20px;
+}
+
+.container {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.container h1 {
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Styling form elements */
+form {
+  width: 100%;
+}
+
+label {
+  font-weight: bold;
+}
+
+input[type="text"],
+textarea,
+select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+/* Styling footer */
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+th,
+td {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+  background-color: rgb(67, 67, 67);
+  color: white;
+}
+th {
+  background-color: #636363;
+}
+
+.img {
+  margin-left: 45%;
+  height: 169px;
+}
+
+.title {
+  margin-left: 38%;
+  font-size: 40px;
+}
+
+.submit {
+  margin-bottom: 100px;
+}
