@@ -5,7 +5,8 @@ citizens to report issues, submit feedback, and monitor the progress of
 infrastructure projects, public services, and government initiatives, promoting 
 transparency and accountability in governance.
 
-![image](https://github.com/ShantanuPanse/HackForge-WebCrafters-1b/assets/138909671/b1979656-c684-433f-9f4a-70dd5769be75)
+![Screenshot (15)](https://github.com/yashkolhatkar09/Government-Portal/assets/138909671/a862e2f7-edc2-4fe6-801a-04c869ee9b42)
+
 
 ![Screenshot (12)](https://github.com/yashkolhatkar09/Government-Portal/assets/138909671/f23317f9-fa39-4cc7-816f-a1faa36a0a73)
 
